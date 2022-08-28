@@ -1,3 +1,6 @@
 body{
-    background: gray;
+    font-family: system-ui;
+    background: #6D6D6A;
+    color:#FFFFFF;
+    text-align: center;
 }

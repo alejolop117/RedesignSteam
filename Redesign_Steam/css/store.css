@@ -1,0 +1,14 @@
+body{
+    font-family: system-ui;
+    background: #6D6D6A;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+*.header{
+    padding: 25px;
+    text-align: center;
+    background: #292929;
+    color: white;
+    font-size: 10px;
+}
