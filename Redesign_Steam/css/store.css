@@ -1,19 +1,15 @@
-body{
-    font-family: system-ui;
-    background: #6D6D6A;
-    color:#FFFFFF;
-    text-align: center;
+#header{
+    display: flex;
+    flex-direction: row;
 }
 
-*.header{
-    padding: 25px;
-    text-align: center;
-    background: #292929;
+.prl_btn{
+    text-decoration: none;
     color: white;
-    font-size: 10px;
+    background: gray;
 }
 
-.search{
-    width: 100%;
-    position: relative;
+.prl_btn:hover{
+    color: black;
+    background: white;
 }
