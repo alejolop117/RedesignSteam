@@ -101,3 +101,7 @@ input[name="l"]{
 #l6:checked ~ .s2{
     margin-left: -40%;
 }
+
+.game_box_sale{
+    display: flex;
+}

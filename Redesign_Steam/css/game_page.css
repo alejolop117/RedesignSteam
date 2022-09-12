@@ -119,6 +119,10 @@ input[name="r"]{
     margin-left: -40%;
 }
 
+.game_box_sale{
+    display: flex;
+}
+
 /* INTERACTABLE STARS*/
 
 /*.star-01:hover, .star-02:hover, .star-03:hover, .star-04:hover, .star-05:hover{
