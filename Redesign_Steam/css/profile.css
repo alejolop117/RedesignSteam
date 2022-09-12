@@ -1,0 +1,7 @@
+#Header {
+    text-align: center; background: black;
+    color: white; font-family: system-ui;
+  }
+  .Bio {
+    width: 15%; height: 70px; text-align:left;
+  }
