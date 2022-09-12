@@ -1,27 +1,113 @@
 <html>
     <head>
-        <title>Store</title>
+        <title>Store | Steam</title>
         <link rel="stylesheet" href="css/store.css">
     </head>
-    <div class="header">
-        <h1>Header</h1>
+    <div id="header"> <!--Header -->
+        <input type="button" value="Home">
+        <h3>STORE</h3>
+        <input type="button" value="Menu">
     </div>
+    <br></br>
     <body>
-        <div class="search">
-          <input type="text" class="searchTerm" placeholder="What are you looking for?">
-               <button type="submit" class="searchButton">
-                 <i class="fa fa-search"></i>
-              </button>
+        <div class="search_bar"> <!--barra de búsqueda -->
+          <input type="text" class="searchTerm" placeholder="Search a game">
          </div>
-         <div class="conteiner">
-            <button Tooltip = "Button Tooltip">
-                juegos
-            </button>
-            <button Tooltip = "Button Tooltip"> biblioteca
-            </button>
-            <button Tooltip = "Button Tooltip">otro boton</button>
-            <button Tooltip = "Button Tooltip">otro boton mas</button>
+         <br></br>
+         <div id="principals_Btns"> <!--Botones de Menús prinpales-->
+            <a href= # class="prl_btn"> LAUNCHES </a> &nbsp;
+            <a href= # class="prl_btn"> FREE </a>
+            <br></br>
+            <a href= # class="prl_btn"> DISCOUNTS </a> &nbsp; <!--&nbsp: espacio-->
+            <a href= # class="prl_btn"> CATEGORIES </a>   
          </div>
-        <p>Acá va otra cosa</p>
+        
+         <div class="suggested_conteiner"> 
+           <h3>SUGGESTED FOR YOU</h3>
+           <div class="slidershow middle">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <div class="slide s1">
+                    <img src="img/assassins_creed.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/Halo.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/sims.png" alt="">
+                </div>
+            </div>
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
+           </div>
+         </div>
+            
+        <br></br>
+
+        <div class="offers_conteiner"> 
+            <h3>SPECIAL OFFERS</h3>
+            <div class="slidershow middle">
+             <div class="slides">
+                 <input type="radio" name="l" id="l4" checked>
+                 <input type="radio" name="l" id="l5">
+                 <input type="radio" name="l" id="l6">
+                 <div class="slide s2">
+                     <img src="img/assassins_creed.png" alt="">
+                 </div>
+                 <div class="slide">
+                     <img src="img/Halo.png" alt="">
+                 </div>
+                 <div class="slide">
+                     <img src="img/sims.png" alt="">
+                 </div>
+             </div>
+             <div class="navigation">
+                 <label for="l4" class="bar"></label>
+                 <label for="l5" class="bar"></label>
+                 <label for="l6" class="bar"></label>
+             </div>
+            </div>
+          </div>
+
+    <div class="game_box_sale">
+        <div class="game_description">
+            <div class="img">
+                <img src=#>
+            </div>
+          <div class="txt">
+            <p><h5>VIDEOGAME NAME</h5>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam quia, quae vitae alias necessitatibus.
+            </p>
+          </div>
+        </div>
+        
+      <div class="sale_details">
+        <table class="rwd_table">
+            <tr>
+                <th>000.00$</th>
+                <th>-00.0%</th>
+                <th><img class="platform_picture" src=#></th>
+                <th><img class="platform_picture" src=#></th>
+                <th><img class="platform_picture" src=#></th>
+            </tr>
+        </table>
+      </div> 
+    </div>
     </body>
+   <div id="footer">
+    <h1>FOOTER</h1>
+   </div>
 </html>
+
+<!--<div class="principals_Btns"> 
+    <input class="prl_btn" type="button" value="LAUNCHES">
+    <input class="prl_btn" type="button" value="FREE">
+    <br></br>
+    <input class="prl_btn" type="button" value="DISCOUNTS">
+    <input class="prl_btn" type="button" value="CATEGORIES">
+ </div>-->

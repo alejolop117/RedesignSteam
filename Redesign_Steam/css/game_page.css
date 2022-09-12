@@ -1,0 +1,158 @@
+/* GENERAL SETTINGS*/
+#header{
+    display: flex;
+    flex-direction: row;
+}
+#footer{
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+}
+
+
+.video{
+    max-width: 100%;
+    height: 30%;
+}
+
+/* TABLE SETTINGS */
+table{
+    border-collapse: collapse;
+}
+
+table th{
+    width: 5em;
+}
+
+th,td{
+    border: solid black 1px;
+}
+
+/*CALIFICATION SETTINGS*/
+
+.calification{
+    margin-right: 25%;
+}
+
+a{
+    font-size:40px;
+    color:#C2D1D9;
+    cursor:pointer;
+    margin-bottom:50px;
+    text-decoration:none;
+}
+
+#one{
+    color: gold;
+}
+
+#two{
+    color: gold;
+}
+
+#three{
+    color: gold;
+}
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle{
+    position:relative;
+    top: 0%;
+    left: 0%;
+}
+
+.navigation{
+    position:absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #fff;
+}
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+/* INTERACTABLE STARS*/
+
+/*.star-01:hover, .star-02:hover, .star-03:hover, .star-04:hover, .star-05:hover{
+    -webkit-transition:all .3s ease-in-out;
+    transition:.3s ease-in-out; 
+    color:gold;
+  }
+  #five:hover ~ a.star{
+    -webkit-transition:all .3s ease-in-out;
+    transition:.3s ease-in-out; 
+    color:gold;
+  }
+  #four:hover ~ a.star{
+    -webkit-transition:all .3s ease-in-out;
+    transition:.3s ease-in-out; 
+    color:gold;
+  }
+  #three:hover ~ a.star{
+    -webkit-transition:all .3s ease-in-out;
+    transition:.3s ease-in-out; 
+    color:gold;
+  }
+  #two:hover ~ a.star{
+    -webkit-transition:all .3s ease-in-out;
+    transition:.3s ease-in-out; 
+    color:gold;
+  }
+  #one:hover ~ a.star{
+    -webkit-transition:all .3s ease-in-out;
+    transition:.3s ease-in-out; 
+    color:gold;
+  }*/
+
+
+
+
+
