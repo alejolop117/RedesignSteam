@@ -1,16 +1,63 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 body{
   margin: 0;
+  padding:180px 30px 0px;
 }
 .header{
- display: flex;
- align-items: center;
- background-color: gray;
+  background-color: gray;
+ height: 150px;
+ width: 100%;
+ position: fixed;
+ align-items:center;
+ top: 0;
+ left: 0;
 }
+
 .title{
   flex:1;
   text-align: center;
   font-size: 70px;
+  width: 600px;
+  font-size: 60px;
 }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 992px;
+  height: 150px;
+  width: 100%;
+}
+.nav a{
+ color : black;
+  text-decoration: none;
+}
+.nav-menu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+.nav-menu-item{
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 150px;
+  text-transform: uppercase;
+  width: max-content;
+
+}
+.nav-menu-link{
+  padding: 8px 12px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+.nav-menu-link:hover
+,.nav-menu-link_active{
+  background-color: rgba(87, 87, 87, 0.685)
+
+}
+
 .icon{
 
 }
@@ -19,10 +66,14 @@ body{
   height: 120px;
   margin-left: 32px;
   margin-right: 32px;
+  line-height: 150px;
 }
 
 .menu-bar{
   width: 200px;
+  padding: 0 20px;
+  line-height: 130px;
+  display: none;
 }
 .main{
 text-align: center;
@@ -51,4 +102,64 @@ text-align: center;
   width: 655px;
   height: 300px;
   display: inline;
+}
+@media(max-width: 1000px){
+
+body{
+  padding:180px 30px 0px;
+}
+.header{
+  height: 146px;
+}
+
+.title{
+  flex:1;
+  text-align: center;
+  font-size: 70px;
+  width: 500px;
+}
+.Steam-Icon{
+  width: 100px;
+  height: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  line-height: 130px;
+}
+
+.nav-menu{
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  background-color: rgba(87, 87, 87, 0.685);
+  position: fixed;
+  left: 0;
+  top:130px;
+  width: 100%;
+  padding: 20px 0;
+  height: 2000px;
+  overflow-y: auto;
+
+  left:100%;
+  transition: left 0.5s;
+}
+.nav-menu-item{
+ line-height: 70px;
+}
+.nav-menu-link{
+  font-size: 36px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-menu-link:hover
+,.nav-menu-link_active{
+  background:none;
+  color: rgba(83, 155, 221, 0.753);
+}
+.menu-bar{
+  display: block;
+}
+.menu-bar_visible{
+  left: 0%;
+}
+
 }
