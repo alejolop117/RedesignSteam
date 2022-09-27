@@ -1,6 +1,8 @@
 .video{
-    max-width: 100%;
-    height: 30%;
+    position: relative;
+    height: 160px;
+    width: 320px;
+    background-color: aqua;
 }
 
 /* TABLE SETTINGS */
@@ -107,9 +109,29 @@ input[name="r"]{
     margin-left: -40%;
 }
 
+
 .game_box_sale{
     display: flex;
 }
+
+.dlc_img{
+    position: relative;
+    top:30%;
+    height: 50%;
+    width: 100%;
+}
+
+.game_description{
+     background-color: aqua;
+}
+
+.sale_price{
+    position: relative;
+    z-index: 1;
+    top: 0%;
+    background-color: blue;
+}
+
 
 /* INTERACTABLE STARS*/
 
