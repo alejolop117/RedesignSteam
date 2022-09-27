@@ -1,21 +1,32 @@
-#header{
-    /*background: #00182e;
-    height: 50px;
-    text-align: center;
-    padding-top: 30px;*/
-    display: flex ;
-}
+#leaderboard{
+    position:relative;
+    width:320px;
+    height:600px;
+    border:1px solid grey;
+    margin:0 auto;
+    overflow:hidden;
+    background: #002B54;
+    overflow-y: scroll;
+  }
 
-#header a{
-    text-decoration: none;
-    /*color: #f2f5f2f4;*/
-    margin-left: 15px;
-}
+  #leaderboard::-webkit-scrollbar {
+    background: transparent; /* Chrome/Safari/Webkit */
+    width: 0px;
+  }
 
-/*body{
-    background: #002b54;
-}*/
+  #menu_header{
+    height:40px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    top:0px;
+    background-color: #00182e;
+  }
 
-#footer{
-    /*background: #00182e;*/
-}
+  .enlace{
+    display:inline-block;
+    color: #f2f5f4;;
+    text-decoration:none;
+    line-height:45px;
+  }
+  
