@@ -7,9 +7,10 @@ body{
   background: rgb(7,7,7);
   background: linear-gradient(180deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 65%, rgba(55,55,55,1) 100%);
   margin: 0%;
+  height: 100%;
 }
 .header{
-  background-color: gray;
+  background-color: rgb(2, 2, 2);
  height: 150px;
  width: 100%;
  position: fixed;
@@ -18,13 +19,6 @@ body{
  left: 0;
 }
 
-.title{
-  flex:1;
-  text-align: center;
-  font-size: 70px;
-  width: 600px;
-  font-size: 60px;
-}
 .nav{
   display: flex;
   justify-content: space-between;
@@ -34,7 +28,6 @@ body{
   width: 100%;
 }
 .nav a{
- color : black;
   text-decoration: none;
 }
 .nav-menu{
@@ -48,34 +41,42 @@ body{
   line-height: 150px;
   text-transform: uppercase;
   width: max-content;
+  margin-top: 50px;
 
 }
 .nav-menu-link{
   padding: 8px 12px;
   border-radius: 3px;
   transition: background-color 0.2s;
+  color: white;
+}
+.text_img{
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+  font-size: 35px;
+  text-align: center;
+  color: white;
 }
 .nav-menu-link:hover
 ,.nav-menu-link_active{
   background-color: rgba(87, 87, 87, 0.685)
 
 }
-
 .icon{
-
+  right: 50%;
 }
 .Steam-Icon{
-  width: 120px;
-  height: 120px;
   margin-left: 32px;
   margin-right: 32px;
   line-height: 150px;
 }
 
 .menu-bar{
-  width: 200px;
+  width: 100px;
   padding: 0 20px;
   line-height: 130px;
+  margin-right: 20px;
   display: none;
 }
 .main{
@@ -95,6 +96,7 @@ text-align: center;
   margin-right: 25px;
   margin-left: 25px;
   margin-bottom: 25px;
+  position: relative;
 }
 .menu-imgs{
   width: 300px;
@@ -125,11 +127,11 @@ body{
   width: 500px;
 }
 .Steam-Icon{
-  width: 100px;
-  height: 100px;
-  margin-left: 25px;
+  margin-left: 325px;
   margin-right: 25px;
   line-height: 130px;
+  width: 300px;
+  left: 20%;
 }
 
 .nav-menu{
@@ -150,6 +152,7 @@ body{
 }
 .nav-menu-item{
  line-height: 70px;
+
 }
 .nav-menu-link{
   font-size: 36px;
