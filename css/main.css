@@ -1,14 +1,25 @@
 #leaderboard{
-    position:absolute;
-    width: 414px;
-    height:896px;
-    top:0;
-    left: 0;
+    position:relative;
+    width: 90%;
+    /*height:896px;*/
+    top: 30px;;
+    left: 5%;
     /*border:1px solid grey;*/
     margin:0;
     overflow:hidden;
-    background: #002B54;
+    /*background: #002B54;*/
     overflow-y: scroll;
+  }
+
+  body{
+    background: #002B54;
+  }
+
+  header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
   }
 
   #leaderboard::-webkit-scrollbar {
@@ -18,10 +29,12 @@
 
   #menu_header{
     height:40px;
+    width: 100%;
     display:flex;
     justify-content:space-around;
     align-items: center;
     top:0px;
+    left: 0px;
     background-color: #00182e;
   }
 
