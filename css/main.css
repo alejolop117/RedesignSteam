@@ -9,10 +9,30 @@
     overflow:hidden;
     /*background: #002B54;*/
     overflow-y: scroll;
+    
+  }
+
+  .regresar{
+    position: relative;
+    height: 32px;
+    right: 40%;
+  }
+
+  .logo{
+    position: relative;
+    height: 32px;
+
+  }
+
+  .menu_bar{
+    position: relative;
+    height: 32px;
+    left: 30%;
   }
 
   body{
-    background: #002B54;
+    background: rgb(7,7,7);
+    background: linear-gradient(180deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 65%, rgba(55,55,55,1) 100%);
   }
 
   header{
@@ -28,14 +48,15 @@
   }
 
   #menu_header{
-    height:40px;
+    height:50px;
     width: 100%;
     display:flex;
     justify-content:space-around;
-    align-items: center;
-    top:0px;
+    align-items:center;
     left: 0px;
-    background-color: #00182e;
+    margin-top: 10px;
+    background-color: blue;
+    background: rgb(7,7,7);
   }
 
   .enlace{
