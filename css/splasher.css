@@ -1,0 +1,28 @@
+#Header {
+    font-family: system-ui;
+    background: black;
+    color: white;
+    text-align: center;
+    margin:auto;
+  }
+  body {
+    background: black;
+  }
+  #Info{
+    text-align: center; font-family: system-ui; color: white;
+  }
+  .steamlogo {
+    height: 5%; width: 5%;
+  }
+  .btnSigIn {
+    background: white; text-decoration:none;
+    color: black; font-family: system-ui;
+  }
+  .btnPass {
+    background: none; text-decoration:none;
+    color: white; font-family: system-ui;
+  }
+  .btnSignUp {
+    background: none; text-decoration:none;
+    color: white; font-family: system-ui;
+  }
