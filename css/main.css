@@ -12,6 +12,10 @@
     
   }
 
+  a{
+    color: #f2f5f4;
+  }
+
   .regresar{
     position: relative;
     height: 32px;
@@ -31,7 +35,7 @@
   }
 
   body{
-    background: rgb(7,7,7);
+    
     background: linear-gradient(180deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 65%, rgba(55,55,55,1) 100%);
   }
 
@@ -64,5 +68,25 @@
     color: #f2f5f4;;
     text-decoration:none;
     line-height:45px;
+  }
+
+  h1{
+    color: #f2f5f4;
+  }
+
+  h2{
+    color: #f2f5f4;
+  }
+
+  h3{
+    color: #f2f5f4;
+  }
+
+  h5{
+    color:#f2f5f4;
+  }
+
+  p{
+    color: #f2f5f4;
   }
   
