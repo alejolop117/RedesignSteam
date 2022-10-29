@@ -14,7 +14,7 @@
             
             <img class="menu-bar" src="img/menu_bars.png">  
              <ul class ="nav-menu menu-bar_visible">
-<<<<<<< HEAD
+                
                 <li class="nav-menu-item"><a href="" class="nav-menu-link">STEAM GUARD</a></li>
                 <li class="nav-menu-item"><a href="" class="nav-menu-link">LIBRARY</a></li>
                 <li class="nav-menu-item"><a href="" class="nav-menu-link">CHAT</a></li>
@@ -23,16 +23,6 @@
                 <li class="nav-menu-item"><a href="friends.html" class="nav-menu-link">FRIENDS</a></li>
                 <li class="nav-menu-item"><a href="" class="nav-menu-link">HELP</a></li>
                 <li class="nav-menu-item"><a href="" class="nav-menu-link">CONFIGURATIONS</a></li>
-=======
-                <li class="nav-menu-item"><a  href="" class="nav-menu-link">STEAM GUARD</a></li>
-                <li class="nav-menu-item"><a  href="library.html" class="nav-menu-link">LIBRARY</a></li>
-                <li class="nav-menu-item"><a  href="" class="nav-menu-link">CHAT</a></li>
-                <li class="nav-menu-item"><a  href="store.html" class="nav-menu-link">SHOP</a></li>
-                <li class="nav-menu-item"><a  href="" class="nav-menu-link">COMMUNITY</a></li>
-                <li class="nav-menu-item"><a  href="friends.html" class="nav-menu-link">FRIENDS</a></li>
-                <li class="nav-menu-item"><a  href="" class="nav-menu-link">HELP</a></li>
-                <li class="nav-menu-item"><a  href="" class="nav-menu-link">CONFIGURATIONS</a></li>
->>>>>>> main
              </ul>
           </nav>
         </div>  
@@ -89,26 +79,32 @@
           </div>
       </div>
       <div class="chat">
-         <section>
-          <h1>Chat Popup</h1>
-          <button class ="btn-chat">chat</button>
-         </section>
-         <div class="chat-popup">
-          <div class ="badge">1</div>
-          <div class="chat-area">
-            <div class ="income-msg">
-              <img src="#">
-              <span  class="msg">Hi, how can I help you?</span>
-            </div>
-          </div>
-        <div class="input-area">
-          <input type ="text">
-          <button src="#"></button>
-          <button class = "submit"> <i class ="chat-incon">send</i></button>
+        <div>
+          <button class = "chat-btn" ></button>
+          <img href = "#modal" class = "chat-btn" src="img/mensajes_button.svg" alt="">
         </div>
+        <div class="chat-box" id ="modal">
+          <div class="popup"> 
+            <btn class="chat-box-toggle">X</btn>
+            <div class="chat-box-header">
+              ChatBot
+
+            </div>
+            <div class="chat-box-body">
+              <div class="chat-box-overlay">   
+              </div>
+              <div class="chat-logs">
+              
+              </div><!--chat-log -->
+            </div>
+            <div class="chat-input">      
+              <form>
+                <input type="text" id="chat-input" placeholder="Send a message..."/>
+              <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+              </form>      
+            </div>
         </div>
       </div>
-      
 
     </body>
 </html>
