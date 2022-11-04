@@ -5,19 +5,16 @@ navToggle.addEventListener("click", () =>{
     navMenu.classList.toggle("menu-bar_visible")
 })
 
-$(document).delegate(".chat-btn", "click", function() {
-    var value = $(this).attr("chat-value");
-    var name = $(this).html();
-    $("#chat-input").attr("disabled", false);
-    generate_message(name, 'self');
-  })
+const chattoggle = document.querySelector(".chat-toggle")
+const chathidden =document.querySelector(".chat-hidden")
+chattoggle.addEventListener("click",() =>{
+    if(chathidden.classList.replace("chat-shown","chat-hidden")){
+        chathidden.classList.replace("chat-shown","chat-hidden")
+    }
+    else{
+        chathidden.classList.replace("chat-hidden","chat-shown")
+    }
+
+})
+
   
-  $("#chat-circle").click(function() {    
-    $("#chat-circle").toggle('scale');
-    $(".chat-box").toggle('scale');
-  })
-  
-  $(".chat-box-toggle").click(function() {
-    $("#chat-circle").toggle('scale');
-    $(".chat-box").toggle('scale');
-  })
