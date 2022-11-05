@@ -1,10 +1,17 @@
 const navToggle = document.querySelector(".menu-bar")
-const navMenu = document.querySelector(".nav-menu")
-
+const navMenu = document.querySelector(".nav-menu ")
+const main = document.querySelector(".main")
 navToggle.addEventListener("click", () =>{
     navMenu.classList.toggle("menu-bar_visible")
-})
+    if(main.classList.contains("main-behind")){
+        main.classList.remove("main-behind")
+        main.classList.add("main")
+    }
+    else{
+        main.classList.add("main-behind")
+    }
 
+})
 const chattoggle = document.querySelector(".chat-toggle")
 const chathidden =document.querySelector(".chat-hidden")
 chattoggle.addEventListener("click",() =>{
@@ -14,7 +21,6 @@ chattoggle.addEventListener("click",() =>{
     else{
         chathidden.classList.replace("chat-hidden","chat-shown")
     }
-
 })
 
   
