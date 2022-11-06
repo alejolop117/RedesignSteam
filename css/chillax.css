@@ -1,3 +1,34 @@
+/**
+ * @license
+ *
+ * Font Family: Chillax
+ * Designed by: Manushi Parikh
+ * URL: https://www.fontshare.com/fonts/chillax
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Chillax Variable(Variable font)
+ * Chillax Extralight
+ * Chillax Light
+ * Chillax Regular
+ * Chillax Medium
+ * Chillax Semibold
+ * Chillax Bold
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 700.0)
+
+*/
+
 @font-face {
   font-family: 'Chillax-Variable';
   src: url('../fonts/Chillax-Variable.woff2') format('woff2'),
@@ -74,120 +105,3 @@
        font-style: normal;
 }
 
-#leaderboard{
-    position:relative;
-    width: 90%;
-    /*height:896px;*/
-    top: 30px;;
-    left: 5%;
-    /*border:1px solid grey;*/
-    margin:0;
-    overflow:hidden;
-    /*background: #002B54;*/
-    overflow-y: scroll;
-    
-  }
-
-  a{
-    color: #f2f5f4;
-    font-family: 'Chillax-Semibold';
-  }
-
-  .regresar{
-    position: relative;
-    height: 32px;
-  }
-
-  .logo{
-    position: relative;
-    height: 32px;
-
-  }
-
-  .menu_bar{
-    position: relative;
-    height: 32px;
-  }
-
-  body{
-    
-    background: linear-gradient(180deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 65%, rgba(55,55,55,1) 100%);
-  }
-
-  header{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 55px;
-  }
-
-  #menu_header{
-    position: relative;
-    width: 88.5%;
-    height: 50px;
-    margin: 0%;
-    display: flex;
-    left: 5.7%;
-  }
-
-  .izq{
-    position: absolute;
-    left: 0%;
-  }
-
-  .center{
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-  }
-
-  .der{
-    position: absolute;
-    right: 0%;
-  }
-
-  #leaderboard::-webkit-scrollbar {
-    background: transparent; /* Chrome/Safari/Webkit */
-    width: 0px;
-  }
-
-  /*#menu_header{
-    height:50px;
-    width: 100%;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
-    left: 0px;
-    margin-top: 10px;
-    background-color: blue;
-    background: rgb(7,7,7);
-  }*/
-
-  .enlace{
-    display:inline-block;
-    color: #f2f5f4;;
-    text-decoration:none;
-    line-height:45px;
-  }
-
-  h1{
-    color: #f2f5f4;
-  }
-
-  h2{
-    color: #f2f5f4;
-  }
-
-  h3{
-    color: #f2f5f4;
-  }
-
-  h5{
-    color:#f2f5f4;
-  }
-
-  p{
-    color: #f2f5f4;
-  }
-  
