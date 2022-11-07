@@ -350,7 +350,7 @@ input[name="r"]{
      }
 
 }
-@media only screen and (min-width: 1025px){
+@media only screen and (min-width: 1025px){ /* PC */
     .mobile_tablet{
         display: none;
     }
@@ -433,6 +433,80 @@ input[name="r"]{
     #logInSteam{
         right: 0%;
         bottom: 0%;
+    }
+
+    .details_game{
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+    
+    }
+
+    .trailer{
+        position:relative;
+        width: 50%;
+    }
+
+    .sinopsis{
+        position: relative;
+        width: 45%;
+        display:block;
+        
+    }
+
+    .sinopsisTxt{
+        position: absolute;
+        margin-top: 0%;
+        text-align: justify;
+    }
+
+    .calification_table{
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        top: 63%;
+    }
+
+    .calification{
+        font-size: 23px;
+    }
+
+    .tabletags{
+        position: absolute;
+        width: 100%;
+        top: 48%;
+    }
+
+    .rwd_table{
+        position: absolute;
+        width: 50%;
+        height: 40px;
+    }
+
+    .prices{
+        font-size: 20px;
+    }
+
+    .buyGame{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 82.5%;
+        right: 0%;
+        width: 100%;
+    }
+    .textBuy{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #btonBuyGame{
+        top: 0px;
+        width: 40%;
+        height: 40px;
+        box-shadow: 2px 1px 44px 0px rgba(26,147,24,0.75);
+        -webkit-box-shadow: 2px 1px 44px 0px rgba(26,147,24,0.75);
+        -moz-box-shadow: 2px 1px 44px 0px rgba(26,147,24,0.75);
     }
 
 }
