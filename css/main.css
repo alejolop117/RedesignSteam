@@ -85,28 +85,23 @@
     overflow:hidden;
     /*background: #002B54;*/
     overflow-y: scroll;
-    
   }
 
   a{
     color: #f2f5f4;
-    font-family: 'Chillax-Semibold';
+    text-decoration-line: none;
   }
 
   .regresar{
     position: relative;
-    height: 32px;
   }
 
   .logo{
     position: relative;
-    height: 32px;
-
   }
 
   .menu_bar{
     position: relative;
-    height: 32px;
   }
 
   body{
@@ -125,8 +120,9 @@
   #menu_header{
     position: relative;
     width: 88.5%;
-    height: 50px;
+    height: 40px;
     margin: 0%;
+    top:15px;
     display: flex;
     left: 5.7%;
   }
@@ -189,5 +185,42 @@
 
   p{
     color: #f2f5f4;
+  }
+
+  @media only screen and  (min-width: 320px) and (max-width: 540px){
+    .regresar{
+      height: 32px;
+    }
+  
+    .logo{
+      height: 32px;
+  
+    }
+  
+    .menu_bar{
+      height: 32px;
+    }
+  }
+  @media only screen and (min-width: 541px) and (max-width: 1024px){ 
+    .regresar{
+      height: 40px;
+    }
+  
+    .logo{
+      height: 40px;
+  
+    }
+  
+    .menu_bar{
+      height: 40px;
+    }
+  }
+  @media only screen and (min-width: 1025px){
+    #leaderboard{
+      width: 90%;
+      top: 110px;
+      left: 5%;
+      margin:0;
+    }
   }
   

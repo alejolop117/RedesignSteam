@@ -10,19 +10,40 @@
     <title>Red Dead Redemption | Steam</title>
 </head>
 <body>
-    <header>
-        <nav id="menu_header">
-            <div class="izq">
-                <a href="library.html" class="enlace"><img class="regresar" src="img/regresar.png"></a> <!--también library-->
-            </div>
-           <div class="center">
-                <a href="index.html" class="enlace"><img class="logo" src="img/logo.png"></a>
-           </div>
-           <div class="der">
-                <a href="" class="enlace"><img class="menu_bar" src="img/menu_bars.png"></a>
-           </div>
-        </nav>
-    </header>
+    <div class="mobile_tablet">
+        <header>
+            <nav id="menu_header">
+                <div class="izq">
+                    <a href="library.html" class="enlace"><img class="regresar" src="img/regresar.png"></a> <!--también library-->
+                </div>
+               <div class="center">
+                    <a href="index.html" class="enlace"><img class="logo" src="img/logo.png"></a>
+               </div>
+               <div class="der">
+                    <a href="" class="enlace"><img class="menu_bar" src="img/menu_bars.png"></a>
+               </div>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="desktop">
+        <header>
+            <nav id="menuHead">
+                <div class="leftMenu">
+                    <a href="index.html" class="enlace"><img class="logo" src="img/logo.png"></a>
+                    <a href="" id="shopU" class="textHeader">SHOP</a>
+                    <a href="library.html"class="textHeader">LIBRARY</a>
+                    <a href=""id="communityU" class="textHeader">COMMUNITY</a>
+                    <a href=""id="helpU" class="textHeader">HELP</a>
+                </div>
+                <div class="rightMenu">
+                    <a href="" id="downloadSteam" class="btonHead dwl">DESCARGAR STEAM</a>
+                    <a href="splasher.html" class="btonHead reg">REGISTRARSE</a>
+                    <a href="" id="logInSteam" class="btonHead">INICIAR SESIÓN</a>
+                </div>
+            </nav>
+        </header>
+    </div>
     <section id="leaderboard">
         <section class="name_page">
             <div>
@@ -30,22 +51,30 @@
             </div>
         </section>
         <section class="details_game">
-              <img src="img/RDRII_1.png" class="portada">
+              <img src="img/RDRII_1.png" class="portada mobile_tablet">
+              <div class="trailer desktop">
+                <iframe width="600" height="365" src="https://www.youtube.com/embed/g-WKpapqVU8" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+              </div>
             <div class="sinopsis">
-                <p>
+                <p class="sinopsisTxt" >
                     Con más de 175 premios al Juego del año y más de 250 valoraciones perfectas, 
                     Red Dead Redemption 2 es una historia épica sobre el honor y la lealtad en el umbral de una nueva era. 
                     Incluye Red Dead Redemption 2: Modo Historia y Red Dead Online.
                 </p>
-            </div>
-            <div class="price">
-                <table class="rwd_table" >
-                    <tr>
-                        <th> $210.000 COP</th><th class="discount_box"> -5%</th> 
-                    </tr>
-                </table>
-
-                <table class="calification_table" >
+                <div class="tabletags desktop">
+                        <table class="tags">
+                            <tr>
+                                <td class="tdCenter">#Acción #Narracción #MundoAbierto</td>
+                            </tr>
+                            <tr>
+                                <td class="tdCenter"><img src="img/windows.png"> <img src="img/xbox.png"></td>
+                            </tr>
+                        </table>
+                      </div>
+                
+                <table class="calification_table desktop" >
                     <tr>
                         <th> <div class="calification">
                             <a id="one" class="star-01 star">★</a>
@@ -57,9 +86,20 @@
                         </th>
                     </tr>
                 </table>
+
+                <div class="buyGame desktop">
+                    <div>
+                        <table class="rwd_table desktop" >
+                        <tr>
+                            <th class="prices"> $210.000 COP</th><th class="prices"> -5%</th> 
+                        </tr>
+                    </table>
+                    </div>
+                    <a href="" id="btonBuyGame"><div class="textBuy">Comprar</div></a>
+                </div>
             </div>
 
-            <div>
+            <div class="mobile_tablet">
                 <a href="" id="btonBuyGame"><div class="textBuy">Comprar</div></a>
             </div>
             
@@ -104,13 +144,13 @@
                          </p>
                     </div>
                   <div class="sale_price">
-                        <a href="" id="btnBuy"> <p>150.000 COP</p></a>
+                        <a href="" id="btnBuy">150.000 COP</a>
                   </div>
                 </div>
             </div>
         </section>
        
-      <div class="tabletags">
+      <div class="tabletags mobile_tablet">
         <table class="tags">
             <tr>
                 <td class="tdCenter">#Acción #Narracción #MundoAbierto</td>
@@ -125,19 +165,19 @@
         <h3>CARACTERISTICAS</h3>
         <table class="features_t">
             <tr>
-                <td><img src="img/controlGame.png" class = "logos"></td><td>Un jugador</td>
+                <td><img src="img/controlGame.png" class = "logos"></td><td><p>Un jugador</p></td>
             </tr>
             <tr>
-                <td><img src="img/trophy.png" class = "logos"></td><td>Logros Steam</td>
+                <td><img src="img/trophy.png" class = "logos"></td><td><p>Logros Steam</p></td>
             </tr>
             <tr>
-                <td><img src="img/phone.png" class = "logos"></td><td>Remote Play en móvil</td>
+                <td><img src="img/phone.png" class = "logos"></td><td><p>Remote Play en móvil</p></td>
             </tr>
             <tr>
-                <td><img src="img/subtitles.png" class = "logos"></td><td>Subtitulos disponibles</td>
+                <td><img src="img/subtitles.png" class = "logos"></td><td><p>Subtítulos disponibles</p></td>
             </tr>
             <tr>
-                <td><img src="img/multiplayer.png" class = "logos"></td><td>Juego en cooperativo</td>
+                <td><img src="img/multiplayer.png" class = "logos"></td><td><p>Juego en cooperativo</p></td>
             </tr>
         </table>
       </div>
