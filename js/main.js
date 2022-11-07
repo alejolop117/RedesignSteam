@@ -80,6 +80,21 @@ window.addEventListener("load", function(){
         alert("Función NO disponible para esta versión");
     })
 })
+window.addEventListener("load", function(){
+    document.getElementById("NOKakarot").addEventListener("click", function(){
+        alert("Juego NO disponible para esta versión");
+    })
+})
+window.addEventListener("load", function(){
+    document.getElementById("NOHades").addEventListener("click", function(){
+        alert("Juego NO disponible para esta versión");
+    })
+})
+window.addEventListener("load", function(){
+    document.getElementById("NOFFXIV").addEventListener("click", function(){
+        alert("Juego NO disponible para esta versión");
+    })
+})
 
 
 
