@@ -1,30 +1,43 @@
-#Header {
-    font-family: system-ui;
-    background: black;
-    color: white;
-    text-align: center;
-    margin:auto;
-  }
   body {
     background: black;
   }
   #Info{
-    text-align: center; font-family: system-ui; color: white;
+    font-family: system-ui;
+    text-align: center; 
+    color: white; 
+    margin: auto; border: 3px solid green;
+
   }
   .steamlogo {
-    height: 5%; width: 5%;
+    width: 392px;
   }
-  .btnSigIn {
-    background: white; text-decoration:none;
-    color: black; font-family: system-ui;
+  .Fills{
+    font-family: system-ui;
+    margin: auto; border: 3px solid green;
   }
-  .btnPass {
-    background: none; text-decoration:none;
-    color: white; font-family: system-ui;
+  input::placeholder{
+    color: white;
   }
-  .btnSignUp {
-    background: none; text-decoration:none;
-    color: white; font-family: system-ui;
+  .FillText{
+    background-color: grey; border: none; color: white;
+  }
+  .FillPassword{
+    background-color: grey; border: none; color: white;
+  }
+  .container {
+    width: 175px; position: relative; margin: auto;
+  }
+  .container img {
+    width: 100%; height: 150px; max-width: 1000px;
+  }
+  .container .btn {
+    margin: auto;
+    font-family: system-ui;
+    font-size: large; 
+    position: absolute; top: 47.5%; left: 50%;
+    transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);
+    background-color: transparent; color: white;
+    border: none;
   }
   @media only screen and  (min-width: 320px) and (max-width: 540px){
   }
