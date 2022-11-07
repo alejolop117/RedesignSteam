@@ -90,7 +90,7 @@
 
   a{
     color: #f2f5f4;
-    font-family: 'Chillax-Semibold';
+    text-decoration-line: none;
   }
 
   .regresar{
@@ -125,8 +125,9 @@
   #menu_header{
     position: relative;
     width: 88.5%;
-    height: 50px;
+    height: 40px;
     margin: 0%;
+    top:15px;
     display: flex;
     left: 5.7%;
   }
