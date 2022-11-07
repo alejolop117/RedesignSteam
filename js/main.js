@@ -51,6 +51,35 @@ window.addEventListener("load", function(){
     })
 })
 
+window.addEventListener("load", function(){
+    document.getElementById("shopU").addEventListener("click", function(){
+        alert("Función NO disponible para esta versión");
+    })
+})
+
+window.addEventListener("load", function(){
+    document.getElementById("communityU").addEventListener("click", function(){
+        alert("Función NO disponible para esta versión");
+    })
+})
+
+window.addEventListener("load", function(){
+    document.getElementById("helpU").addEventListener("click", function(){
+        alert("Función NO disponible para esta versión");
+    })
+})
+
+window.addEventListener("load", function(){
+    document.getElementById("downloadSteam").addEventListener("click", function(){
+        alert("Función NO disponible para esta versión");
+    })
+})
+
+window.addEventListener("load", function(){
+    document.getElementById("logInSteam").addEventListener("click", function(){
+        alert("Función NO disponible para esta versión");
+    })
+})
 
 
 

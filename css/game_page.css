@@ -252,6 +252,9 @@ input[name="r"]{
     font-family: 'Chillax-Medium';
 }
 @media only screen and  (min-width: 320px) and (max-width: 540px){
+    .desktop{
+        display: none;
+    }
     h1{
         font-size: 22px;
     }
@@ -298,6 +301,10 @@ input[name="r"]{
 
 }
 @media only screen and (min-width: 541px) and (max-width: 1024px){ 
+    .desktop{
+        display: none;
+    }
+
     h1{
         font-size: 30px;
     }
@@ -344,6 +351,90 @@ input[name="r"]{
 
 }
 @media only screen and (min-width: 1025px){
+    .mobile_tablet{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+    h3{
+        font-size: 28px;
+    }
+    
+    h5{
+        font-size: 25px;
+    }
+    
+    p{
+        font-size: 22px;
+    }
+
+    .textHeader{
+        font-family: 'Chillax-Medium';
+        font-size: 18px;
+    }
+
+    .logo{
+        position: relative;
+        height: 50px;
+    }
+
+    #menuHead{
+        position: relative;
+        width: 88.5%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        left: 5.7%;
+        margin-top: 20px;
+    }
+    
+    header{
+        height: 75px;
+    }
+
+    .leftMenu{
+        position: relative;
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .rightMenu{
+        position: relative;
+        width: 30%;
+    }
+
+    .btonHead{
+        position: absolute;
+        height: 23px;
+        width: 130px;
+        z-index: 1;
+        font-family: 'Chillax-Medium';
+        font-size: 14px;
+        background-color: #c400d9;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    #downloadSteam{
+        top: 35px;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .reg{
+        margin-top: 15px;
+        right: 0%;
+    }
+
+    #logInSteam{
+        right: 0%;
+        bottom: 0%;
+    }
+
 }
 
 
