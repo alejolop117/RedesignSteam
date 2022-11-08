@@ -561,6 +561,16 @@ input[name="r"]{
         top:35%;
     }
 
+    .gallery{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+
+    .slidershow{
+        width: 70%;
+    }
+
 
 
 }
