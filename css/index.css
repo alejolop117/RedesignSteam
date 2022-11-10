@@ -7,7 +7,9 @@ body{
   background: rgb(7,7,7);
   background: linear-gradient(180deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 65%, rgba(55,55,55,1) 100%);
   margin: 0%;
-  height: 100%;
+  overflow: hidden;
+  height:10%;
+  display: block;
 }
 .main{
   position: relative;
@@ -246,10 +248,80 @@ text-align: center;
   bottom: 0%;
   margin-top: 20px;
 }
-@media(max-width: 1000px){
-
+.footer{
+  height: 100%;
 }
 @media only screen and  (min-width: 320px) and (max-width: 540px){
+  body{
+    padding:180px 30px 0px;
+  }
+  .header{
+    height: 146px;
+  }
+  
+  .title{
+    flex:1;
+    text-align: center;
+    font-size: 70px;
+    width: 500px;
+  }
+  .Steam-Icon{
+    margin-left: 325px;
+    margin-right: 25px;
+    line-height: 130px;
+    width: 300px;
+    left: 20%;
+  }
+  
+  .nav-menu{
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgba(87, 87, 87, 0.685);
+    position: fixed;
+    left: 0;
+    top:130px;
+    width: 100%;
+    padding: 20px 0;
+    height: 2000px;
+    overflow-y: auto;
+  
+    left:100%;
+    transition: left 0.5s;
+  }
+  .nav-menu-item{
+   line-height: 70px;
+   position: relative;
+   z-index: 1000;
+  }
+  .nav-menu-link{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .menu-imgs{
+    z-index: 0;
+  }
+  
+  
+  .nav-menu-link:hover
+  ,.nav-menu-link_active{
+    background:none;
+    color: rgba(83, 155, 221, 0.753);
+  }
+  .menu-bar{
+    display: block;
+  }
+  .divs_row{
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .menu-bar_visible{
+    position: fixed;
+    left: 0%;
+    z-index: 3;
+  }
 }
 @media only screen and (min-width: 541px) and (max-width: 1024px){ 
   
@@ -303,7 +375,9 @@ body{
 .menu-imgs{
   z-index: 0;
 }
-
+.divs_row{
+  
+}
 
 .nav-menu-link:hover
 ,.nav-menu-link_active{
@@ -318,7 +392,23 @@ body{
   left: 0%;
   z-index: 3;
 }
-
+/*problema con el media querry*/
+.divs_row{
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.menu-imgs{
+  height: 250px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.menu-imgs_large{
+  height: 250px;
+}
+.popup{
+  top: 15%;
+}
 }
 @media only screen and (min-width: 1025px){
 }
